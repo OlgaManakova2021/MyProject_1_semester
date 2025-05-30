@@ -1,9 +1,3 @@
-# a = 15
-# print(type(a))
-#
-# str = "Olga"
-# print(type(str))
-
 class Car:
     def move(self):
         print("Машина едет")
@@ -14,13 +8,14 @@ class Car:
 class Car_1:
     pass
 
+# BMW = Car()
+# Opel = Car()
 
-BMW = Car()
-Opel = Car()
-
+# print('BMW')
 # BMW.move()
 # BMW.stop()
 #
+# print('Opel')
 # Opel.stop()
 # Opel.move()
 
@@ -35,5 +30,5 @@ Opel = Car()
 # print(id(BMW), id(Opel))
 
 #Атрибуты my_car
-print(dir(BMW))
+# print(dir(BMW))
 # print(BMW.__dict__)

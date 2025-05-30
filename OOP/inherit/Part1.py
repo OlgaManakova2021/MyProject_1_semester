@@ -14,18 +14,18 @@ class Dog(Animal):
         print("Я могу много поесть")
 
 
-collei = Dog()
+# collei = Dog()
 # print(Dog.__dict__)
-collei.name = "Max"
+# collei.name = "Max"
 # print(collei.__dict__)
 
-tax = Dog()
+# tax = Dog()
 # print(collei.__dict__)
 # print(Dog.__dict__)
-tax.name = "Rex"
+# tax.name = "Rex"
 #
 # # print(collei.__dict__)
-collei.display()
+# collei.display()
 # tax.display()
 #
-collei.eat()
+# collei.eat()
