@@ -1,3 +1,8 @@
+# Функция super() используется для доступа к методам и атрибутам
+# родительского класса из дочернего класса. Это полезно, когда
+# необходимо расширить или изменить поведение методов
+# родительского класса, не дублируя код.
+
 class Animal:
     name = ''
 
@@ -23,8 +28,9 @@ class Dog(Animal):
 # print(collei.__dict__)
 # print(Dog.__dict__)
 # tax.name = "Rex"
+# print(tax.__dict__)
 #
-# # print(collei.__dict__)
+
 # collei.display()
 # tax.display()
 #
